@@ -18,7 +18,7 @@ const SignIn = () => {
             const loginData = await loginUser(values);
             if (loginData.status === 'success') {
                 navigate('/dashboard');
-                console.log('login success!')
+                console.log('login success!')       
             } else {
                 setAlert({ type: "danger", message: loginData.msg });
 
