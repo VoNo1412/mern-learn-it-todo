@@ -6,9 +6,15 @@
   <h2 align="center">mern-LearnIt</h2>
 </div>
 
+<h1>Feature</h1>
+<ul>
+  <li>Sign up/Login</li>
+  <li>Add todo item </li>
+  <li>Update todo item </li>
+  <li>Delete todo item </li>
+</ul>
+
 <!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
   <h1>Knowledge</h1>
   <ul>
     <li>ReactJS</li>
@@ -16,4 +22,4 @@
     <li>Express</li>
     <li>MongoDB</li>
   </ul>
-</details>
+
