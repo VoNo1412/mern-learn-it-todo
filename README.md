@@ -3,7 +3,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <h2 align="center">mern-LearnIt</h2>
+  <h2>mern-LearnIt</h2>
+  <p>You can add basic tasks, remove them, compelte them and remove completed tasks</p>
 </div>
 
 <h1>Feature</h1>
