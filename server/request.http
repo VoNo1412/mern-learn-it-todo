@@ -1,0 +1,58 @@
+### Register
+POST http://localhost:5000/api/auth/register 
+Content-Type: application/json
+
+{
+    "username": "henry_dev_01",
+    "password": "1412"
+}
+### Login
+POST http://localhost:5000/api/auth/login 
+Content-Type: application/json
+
+{
+    "username": "dev_02",
+    "password": "1412"
+}
+
+###Index
+GET http://localhost:5000/api/posts
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2MzA2ZjE4NzlhZjhhN2NmZWIzZDUzNzEiLCJpYXQiOjE2NjE1NzIxMDl9.hOtfRqM6VOwnEWMpZtvYZOl3h4b0gECj7-ieWsPYN2w
+
+###Insert
+POST  http://localhost:5000/api/posts/post
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2MzA2ZjE4NzlhZjhhN2NmZWIzZDUzNzEiLCJpYXQiOjE2NjE1NzIxMDl9.hOtfRqM6VOwnEWMpZtvYZOl3h4b0gECj7-ieWsPYN2w
+
+{
+    "title": "title_04",
+    "desc": "desc_01",
+    "url": "",
+    "status": "LEARNED"
+}
+
+
+### Update
+PUT http://localhost:5000/api/posts/post/630995a9a727179984070bf1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2MzA2ZjE4NzlhZjhhN2NmZWIzZDUzNzEiLCJpYXQiOjE2NjE1NzIxMDl9.hOtfRqM6VOwnEWMpZtvYZOl3h4b0gECj7-ieWsPYN2w
+
+{
+    "title": "title_02",
+    "desc": "THIS is something new UPDATE POST",
+    "status": ""
+}
+
+
+###DELETE
+DELETE  http://localhost:5000/api/posts/post/6309958007aa0111121411e1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2MzA2ZjE4NzlhZjhhN2NmZWIzZDUzNzEiLCJpYXQiOjE2NjE1NzIxMDl9.hOtfRqM6VOwnEWMpZtvYZOl3h4b0gECj7-ieWsPYN2w
+
+
+
+### Check Authen user
+GET http://localhost:5000/api/auth
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2MzA2ZjE4NzlhZjhhN2NmZWIzZDUzNzEiLCJpYXQiOjE2NjE5NTg0MTN9.F1Zdd1EmAAQhOHnH_PT9bBIF3UGbpYUAQYmBqVA4Li4
