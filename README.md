@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <h2 align="center">mern-Learn-IT-Clone</h2>
+  <h2 align="center">mern-LearnIt</h2>
 </div>
 
 <!-- TABLE OF CONTENTS -->
