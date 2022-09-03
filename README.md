@@ -3,20 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/OkoyeCharles/amazon-clone">
-    <img src="https://user-images.githubusercontent.com/102174805/187028856-d3ad3cb1-4006-4dfb-9704-4a2e10a56195.png" alt="amazon-clone" width="100">
-  </a>
-
-  <h2 align="center">Amazon-Clone</h2>
-
-  <h4 align="center">  
-    <br />
-    <a href="https://clone-f50ae.web.app/" target="_blank">View Live</a>
-    ·
-    <a href="https://github.com/OkoyeCharles/amazon-clone/issues/new" target="_blank">Report Bug</a>
-    ·
-    <a href="https://github.com/OkoyeCharles/amazon-clone/issues/new" target="_blank">Request Feature</a>
-  </h4>
+  <h2 align="center">mern-Learn-IT-Clone</h2>
 </div>
 
 <!-- TABLE OF CONTENTS -->
