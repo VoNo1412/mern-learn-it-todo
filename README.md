@@ -24,5 +24,3 @@
     <li>MongoDB</li>
   </ul>
 
-<h1>reference</h1>
-https://www.youtube.com/watch?v=rgFd17fyM4A&t=20668s
